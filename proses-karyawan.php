@@ -32,7 +32,7 @@ else if (isset($_POST["edit_karyawan"])) {
     
     if (empty($_POST["password"])) {
         #pass tdk diedit 
-        $sql = "update karyawan set id_karyawan = '$id_karyawan', nama_karyawan = '$nama_karyawan', 
+        $sql = "update karyawan set nama_karyawan = '$nama_karyawan', 
         alamat_karyawan = '$alamat_karyawan', kontak = '$kontak', 
         username = '$username' where id_karyawan = '$id_karyawan'";
     }else {

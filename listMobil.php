@@ -34,7 +34,7 @@
                        or merk like '%$cari%'
                        or jenis like '%$cari%'
                        or warna like '%$cari%'
-                       or tahun-pembuatan like '%$cari%'
+                       or tahun_pembuatan like '%$cari%'
                        or biaya_sewa_per_hari like '%$cari%'";
                    }else{
                        $sql = "select * from mobil";
@@ -57,7 +57,7 @@
                                    <h6>Nomor Mobil: <?=$mobil["nomor_mobil"]?></h6>
                                    <h6>Jenis: <?=$mobil["jenis"]?></h6>
                                    <h6>Warna: <?=$mobil["warna"]?></h6>
-                                   <h6>Tahun Pembuatan: <?=$mobil["tahun-pembuatan"]?></h6>
+                                   <h6>Tahun Pembuatan: <?=$mobil["tahun_pembuatan"]?></h6>
                                    <h6>Biaya sewa: <?=$mobil["biaya_sewa_per_hari"]?></h6>
                                </div>
                                <div class="col-lg-2">
